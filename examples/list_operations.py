@@ -17,6 +17,9 @@ print("Rimuove l\'elemento ", i, " ", b.pop(i))
 #essa contenuti sono compatibili
 b.sort()
 print(b)
+b[1] = 15
+b.sort()
+print(b)
 
 #Lista omogenea di valori stringa
 c = ["abaco", "rimessa", "cielo", "mantello"]
